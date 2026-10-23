@@ -15,7 +15,7 @@ parte de la entrega: si falta alguno, la entrega se sanciona con el 20 % de
 la nota.
 
 | Nombre completo | Código |
-|---|---|
+|Alejandro galeano Castro|2477228 |galeano.alejandro@correounivalle.edu.co|
 | | |
 | | |
 | | |
