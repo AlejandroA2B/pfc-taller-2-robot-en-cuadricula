@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taller.RobotCuadriculaTest" tests="92" skipped="0" failures="0" errors="0" timestamp="2026-10-23T02:12:15" hostname="LAPTOP-RHUNQJLR" time="0.217">
+  <properties/>
+  <testcase name="girar: Norte a la derecha da Este" classname="taller.RobotCuadriculaTest" time="0.038"/>
+  <testcase name="girar: Norte a la izquierda da Oeste" classname="taller.RobotCuadriculaTest" time="0.003"/>
+  <testcase name="girar: Oeste a la derecha da Norte" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="girar: Sur a la izquierda da Este" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="girar: cuatro giros al mismo lado vuelven al principio" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="girar: un giro y su contrario se cancelan" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="girar: Este a la derecha da Sur" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="girar: Este a la izquierda da Norte" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="girar: Sur a la derecha da Oeste" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="girar: Oeste a la izquierda da Sur" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="girar: izquierda y derecha desde el mismo estado dan resultados opuestos" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="girar: cuatro giros a la izquierda vuelven al punto de partida" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="ejecutar: avanzar tres al norte" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="ejecutar: una secuencia de avance, giro y avance" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="ejecutar: el cuadrado vuelve al punto de partida" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="ejecutar: avanzar con paso negativo retrocede" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="ejecutar: repetir cero veces no hace nada" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="ejecutar: la secuencia vacía no hace nada" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="ejecutar: avanzar al sur disminuye y" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="ejecutar: avanzar al oeste disminuye x" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="ejecutar: avanzar al este aumenta x" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="ejecutar: avanzar con cero no mueve" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="ejecutar: repetir negativo no hace nada" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="ejecutar: repetir una vez equivale a la orden sola" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="ejecutar: secuencia de solo giros no mueve" classname="taller.RobotCuadriculaTest" time="0.003"/>
+  <testcase name="ejecutar: repetir anidado multiplica los avances" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="cuantasBasicas: una orden básica cuenta uno" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="cuantasBasicas: el cuadrado ejecuta ocho básicas" classname="taller.RobotCuadriculaTest" time="0.008"/>
+  <testcase name="cuantasBasicas: repetir cero veces no ejecuta nada" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="cuantasBasicas: la secuencia vacía no ejecuta nada" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="profundidad: una orden básica tiene profundidad 1" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: una secuencia de básicas tiene profundidad 2" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="profundidad: el cuadrado tiene profundidad 3" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: la secuencia vacía tiene profundidad 1" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: manda la rama más honda" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="cuantasBasicas: Girar cuenta como una básica" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="cuantasBasicas: Repetir multiplica las básicas de su orden interna" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="cuantasBasicas: Repetir con veces negativo no cuenta nada" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="cuantasBasicas: Secuencia suma las básicas de sus órdenes" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="cuantasBasicas: Repetir anidado multiplica los conteos" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="cuantasBasicas: Repetir de una Secuencia multiplica la suma" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: Repetir añade un nivel a su orden interna" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: Repetir anidado suma niveles" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: Secuencia toma la rama más honda y suma uno" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: Secuencia con una sola básica tiene profundidad 2" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: Repetir de una Secuencia vacía tiene profundidad 2" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="profundidad: Secuencia anidada dentro de Secuencia suma niveles" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="componer: deja las dos órdenes en secuencia" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="componer: ejecutar la compuesta es ejecutar una y después la otra" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="rutina: currificada, el cuadrado de cuatro vuelve al origen" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="rutina: con los mismos argumentos construye el cuadrado del enunciado" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="aplicarA: ejecuta la misma orden sobre varios estados" classname="taller.RobotCuadriculaTest" time="0.003"/>
+  <testcase name="aplicarA: sobre la lista vacía no hay nada que hacer" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="transformar: duplicar los avances deja los giros como estaban" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="transformar: con la identidad no cambia nada" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="componer: dos avances se ejecutan en orden" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="componer: giro y avance mueven en la nueva dirección" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="componer: dos giros a la derecha equivalen a girar 180 grados" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="componer: componer con secuencia vacía no altera" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="componer: componer dos secuencias las concatena como una sola" classname="taller.RobotCuadriculaTest" time="0.004"/>
+  <testcase name="componer: el orden importa (avanzar y girar no es girar y avanzar)" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="rutina: cero repeticiones no hace nada" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="rutina: una repetición avanza y gira una vez" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="rutina: pasos negativos retroceden" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="rutina: cuatro repeticiones con giro a la izquierda forman un cuadrado" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="rutina: fijar pasos y giro devuelve una función que espera veces" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="aplicarA: lista vacía devuelve lista vacía" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="aplicarA: un solo estado" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="aplicarA: no modifica la lista original" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="aplicarA: aplica una secuencia compuesta a varios estados" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="aplicarA: aplica Repetir a varios estados" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="aplicarA: la longitud del resultado es la misma que la de entrada" classname="taller.RobotCuadriculaTest" time="0.002"/>
+  <testcase name="transformar: invierte el sentido de los giros" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="transformar: aplica f a Avanzar dentro de Secuencia" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="transformar: no aplica f a compuestas" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="transformar: respeta estructura de Secuencia anidada" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="transformar: convertir todos los Avanzar en Girar" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="simplificar: dos avances seguidos se juntan" classname="taller.RobotCuadriculaTest" time="0.005"/>
+  <testcase name="simplificar: repetir una vez es la orden misma" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="simplificar: avanzar cero desaparece de la secuencia" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="simplificar: junta solo los avances contiguos" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="simplificar: repetir cero veces no hace nada" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="simplificar: dos avances que se cancelan desaparecen" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="simplificar: es idempotente" classname="taller.RobotCuadriculaTest" time="0.004"/>
+  <testcase name="simplificar: no cambia el resultado de ejecutar" classname="taller.RobotCuadriculaTest" time="0.005"/>
+  <testcase name="simplificar: el anidamiento interior también se reduce" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="simplificar: fusiona tres avances consecutivos" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="simplificar: no fusiona avances separados por un giro" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="simplificar: quita varias órdenes vacías de una secuencia" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="simplificar: simplifica dentro de un Repetir" classname="taller.RobotCuadriculaTest" time="0.0"/>
+  <testcase name="simplificar: Repetir una vez desenvuelve aunque sea compuesta" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <testcase name="simplificar: una secuencia que queda con un solo elemento se desenvuelve" classname="taller.RobotCuadriculaTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
